@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <button class="btn call" onclick="newFunction()">call me</button>
+     <button class="btn time" onclick="timeoutFun()">setTimeout</button>
+     <button class="btn inter" onclick="timeIntervalFun()">setTimeInterval</button> <br>
+     <button class="btn" id="addEvent">add an event</button>
+     <button class="btn" id="mouseDown" name="DM">Mouse Down/Up</button>
+     <div>
+        <input style="border: 1px solid black; padding: 10px;" type="text" onclick="clickEvent()">
+        <select onchange="changeEvent()">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+         </select>
+     </div>
+     <form id="subID" action="">
+     <button type="submit" id="subbtn" onclick="displayContent()">submit</button>
+    </form>
+     
+     
+    <script src="script.js"></script>
+</body>
+</html>

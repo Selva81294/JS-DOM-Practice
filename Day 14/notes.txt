@@ -1,0 +1,109 @@
+//DOM Events
+console.log(window); ===> to view all events
+* Document itself contains inside the window
+//Exercise:
+create a new div with five para; set attribute for five para(class,"className"); use querySelectorAll to change the text content.
+Writa a content in para and append it.
+
+//some propertied in windows:
+console.log(window.location.host); =====> used to view the host.
+window.location.reload();  =====> used to reload repeatedly.
+
+//alert 
+* alert is used to alert the user at particular time 
+//prompt
+* it is used to ask question to user at required time
+//confirm
+* it is used for confirmation from user side
+
+//replace
+location.replace("which location");
+* it used to replace the location to another location
+
+//onclick function
+<button onclick="newFunction()">call me</button>
+js code:
+function newFunction()
+    {
+    prompt("Please enter ur name:")
+    }
+* it is used to perform onclick functions. in above instance, when the button is clicked prompt message will appear.
+
+
+
+//setTimeout
+syntax:
+setTimeout(newFunction,time in milliseconds);
+Example:
+setTimeout(newFunction,5000);
+
+* it is used to set time for the execution of any functions or actions
+* here the function will occur once after the give time
+
+//setTimeout & clearTimeout:
+Code using both setTimeout & clearTimeout:
+let timer = document.createElement("h1");
+document.body.append(timer);
+let count = 0;
+function timeoutFun(){
+    count = count+1;
+    timer.textContent = count;
+    let id = setTimeout(timeoutFun,1000);
+    if (count ==10){
+        clearTimeout(id);           // clearTimeout is used to stop timeOut
+        timer.textContent = "";
+    }
+}
+
+//setInterval:
+syntax same as setTimeout.
+Example:
+setInterval(newFunction,5000);
+* here the function will occur repeatedly at the given time interval.
+* in above example; the function will occur at every 5 secs
+
+//events:
+Sample Events:
+1. onclick
+2. onchange
+3. addEventListener (used to add a event through JS)
+
+//8 Different types of events:
+4 is Essential;
+1. Window Event:
+    - scroll
+    - resize
+2. Form Events:
+    - input
+    - focus
+    - blur
+    - change
+    - submit
+3. Keyboard Events:
+    - keydown
+    - keypress
+    - keyup
+4. Mouse Events:
+    - click
+    - mouse down (at the moment of click mouse)
+    - mouse up (at the moment of release mouse)
+    - mouse move (at the moment of mouse movement)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+Callback:
+* A callback function is a function passed into another function as an argument,
+  to complete some kind of routine or action.
+What's the callback? - callstack,webapi, eventloop, queue
+Use & the purpose of the callback
+Pain of callback
+
+
+
+Important Interview Question:
+ eventloop >>>> refer in 
+ "http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D"
+ 1. Call Stack(execution area)
+ 2. Web Apis (setTimeout, setInterval as these functions goes here and wait till time ends
+    after moves to Callback queue) 
+ 3. Callback queue(it holds the functions coming from web apis till Call Stack becomes empty
+    and push it to Call Stack and execution done in Call stack one by one)
+ # this is eventloop concept (refer above link for diagramatic explanation)

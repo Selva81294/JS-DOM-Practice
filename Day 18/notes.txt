@@ -1,0 +1,70 @@
+Promise
+ - What is promise?
+    A Promise is an object that represents the eventual completion (or failure) of an asynchronous operation,
+    and its resulting value
+    - Syntax:
+        let promiseName = new Promise((resolve, reject) => {
+            if else condition used here....
+        })
+    - it is used to showa the resolve or reject status of an asynchronous operation
+
+ - Promise States
+    Three States 
+        1. Pending
+        2. fulfilled
+        3. rejected
+
+ - promise methods
+    1. promise.then (resolve msg)
+    2. promise.catch (reject msg)
+    3. promise.all(for multiple promises)
+        * promise.all will work when all promises are resolved; if one promise is rejected only
+          error msg will through as an output.
+
+  - Promise chain
+----------------------------------------------------------------------------------------
+Await Sync(important):
+     * it is found to avoid promise chaining method
+     * here we can achieve aync function easily
+2 main rule in Async Function:
+     1. async keyword must be placed before calling function
+     2. await keyword must be place before which function u want to wait
+
+syntax:
+    async function main(){           ====> async keyword must be placed
+    const first = await firstCall(); ====> await keyword must be place before which function u want to wait
+    console .log(first);
+    secondCall();
+    thirdCall();
+    fourthCall();
+}
+main();
+
+Error handling Async-await:
+syntax:
+    try {
+        your codes.........
+    } catch (error) {
+        console.log(error);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

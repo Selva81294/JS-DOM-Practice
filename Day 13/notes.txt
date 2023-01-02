@@ -1,0 +1,18 @@
+//Topics:
+//prompt
+// creating a element 
+//innerText
+//innerHTML
+//setAttribute
+//get element by id
+//Query Selector
+//difference b/w innertext and textcontent
+//append vs appendChildppend 
+append:
+syntax:
+parent.append(child);
+* here u can append(push) new element, new string, etc.
+appendChild:
+syntax:
+parent.appendChild(child);
+* here u can append(push) new element (child) only. No strings can be appended.

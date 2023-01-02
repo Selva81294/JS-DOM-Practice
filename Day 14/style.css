@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.btn{
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 15px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.call{
+    background-color:crimson;
+}
+.time{
+    background-color: brown;
+}
+.inter{
+    background-color: darkred;
+}
+#addEvent{
+    background-color: red;
+}
+#mouseDown{
+    background-color: blue;
+}
+#tArea{
+    margin-top: 20px;
+    height: 300px;
+    width: 350px;
+    padding: 7px;
+    text-align: left;
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+#dArea{
+    text-align: center;
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+#subbtn{
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: crimson;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
